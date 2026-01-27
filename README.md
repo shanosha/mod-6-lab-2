@@ -1,4 +1,8 @@
-# Refelctions
+# Instructions
+
+To run this project file, you can open the JavaScript file and run it using Node.
+
+## Refelctions
 
 Why is it important to handle errors for each individual API call rather than just at the end of the promise chain?
 
