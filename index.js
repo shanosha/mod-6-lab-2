@@ -7,7 +7,8 @@ fetchProductCatalog()
         return fetchProductReviews(firstProductId); // returns a promise object
     })
     .then((reviews) => {
-        console.log("Fetched Reviews:", reviews);
+        const currentProductId = reviews[0].productId;
+        console.log(`Fetched Reviews for Product ID ${currentProductId}:`, reviews);
         return fetchSalesReport(); // returns a promise object
     })
     .then((sales) => {
