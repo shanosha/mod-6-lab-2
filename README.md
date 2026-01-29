@@ -1,6 +1,10 @@
 # Instructions
 
-To run this project file, you can open the JavaScript file and run it using Node.
+To run this project file:
+
+- clone the repository
+- open the index.js JavaScript file
+- run it using "node index.js"
 
 ## Refelctions
 
